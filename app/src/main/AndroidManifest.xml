@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.group9_3ITF.umatter">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/umatter_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/umatter_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UMatter"
+        >
+        <activity
+            android:name=".ListMood"
+            android:exported="true" />
+        <activity
+            android:name=".Mood"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:windowSoftInputMode="stateVisible|adjustPan"/>
+        <activity
+            android:name=".MainScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Hotlines"
+            android:exported="false" />
+        <activity
+            android:name=".DevelopersProfile"
+            android:exported="false" />
+        <activity
+            android:name=".DailyQuotes"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:windowSoftInputMode="stateVisible|adjustPan"/>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

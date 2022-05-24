@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "47626291898",
+    "firebase_url": "https://umatterfirebase-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "umatterfirebase",
+    "storage_bucket": "umatterfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47626291898:android:c2ac5c3cfa69af3cae5083",
+        "android_client_info": {
+          "package_name": "com.group9_3ITF.umatter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47626291898-40q11as1gqk7p9hamvinlb1o8rh2nitl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY87qwzP9uMyBKaA219aVOwctspeNGd-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47626291898-40q11as1gqk7p9hamvinlb1o8rh2nitl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
